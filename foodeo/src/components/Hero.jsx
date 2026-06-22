@@ -7,7 +7,7 @@ function Hero() {
             <h1 className=" text-black text-4xl sm:text-5xl flex flex-col md:text-6xl lg:text-7xl font-poppins leading-tight iteam-center">
                 <span className='inline-block font-bold'>Rank Your</span>{' '}
                 <span className='inline-block font-medium bg-linear-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent flex flex-1 relative p-2 md:p-3 sm:font-normal'>Food.
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 w-[140%] h-[140%] bg-linear-to-r from-emerald-600/30 to-emerald-400/30 z-0 blur-[30px] md:blur-[40px] rounded-full pointer-events-none" /> 
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 w-[140%] h-[140%] bg-linear-to-r from-green-600/30 to-green-400/30 z-0 blur-[30px] md:blur-[40px] rounded-full pointer-events-none" /> 
                 
                 </span> 
                            
