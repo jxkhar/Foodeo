@@ -22,7 +22,7 @@ function Navbar() {
     </div>
     
     <div className='hidden sm:flex'>
-        <Button text="Contact" />
+        <Button text="Start Work" />
     </div>
 
     <div className='sm:hidden flex flex-1 justify-end items-center'>

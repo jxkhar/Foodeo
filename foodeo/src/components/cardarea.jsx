@@ -28,9 +28,6 @@ function Cardarea() {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-125 h-125 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 mb-16 relative z-10">
-        <span className="text-xs font-mono tracking-widest text-emerald-600 uppercase block mb-2">
-          Product Modules
-        </span>
         <h2 className="text-3xl md:text-5xl font-black tracking-tighter text-slate-950">
           What Foodeo Builds.
         </h2>
