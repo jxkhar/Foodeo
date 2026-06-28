@@ -1,10 +1,21 @@
 from fastapi import FastAPI, HTTPException, status
 from typing import Optional
 from app.schemas import ProjectDetails, ProjectUpdate
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Foodeo Backend API")
 
-# Simulated Database
+origins = [
+    "*"
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_headers=["*"],
+    allow_methods=["*"]
+)
+
 projects = {
     1: {
         "product_name": "demo",
